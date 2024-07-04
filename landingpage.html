@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="landingpage.css">
+    <style>
+        *{
+    margin: 0%;
+}
+#container{
+    height: 100vh;
+   width: 100%;
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+    background-position:center;
+    background-image: url('https://simplyfox.co.uk/wp-content/uploads/2018/08/iStock-640299760.jpg');
+    background-color: black;
+}  
+#header{
+    padding: 20px 5px;
+}
+.logo{
+    width: 110px;
+    height: 40px;
+    padding-left: 20px;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+ }
+ .b{
+    font-size: 35px;
+    padding-right: 420px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #a82e4c;
+    font-family: 'Kunstler Script', sans-serif;
+ }
+ nav  ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+    align-items: center;
+    font-weight: bold;
+    
+}
+ nav ul li a{
+    text-decoration: none;
+    color:#a82e4c ;
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    font-size: 30px;
+    margin-top: 100px;
+    align-items: center;
+    height: 200px;
+    width:800px ;
+}
+.colum{
+    height: 475px;
+    width: 540px;
+    margin-top: 5px;
+    align-items: center;
+}
+.colum-1-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 30%;
+    padding-left: 220px;
+}
+.colum-2-img{
+    height: 150px;
+    width: 150px;
+    padding-left: 140px;
+    border-radius: 25%;
+}
+.colum-3-img{
+    height: 130px;
+    width: 130px;
+    padding-left:50px ;
+}
+.colum-4-img{
+    height: 170px;
+    width: 180px;
+    border-radius: 100%;
+    position: relative;
+    padding-left: 80px;
+    padding-top: -100px;
+}
+.colum-5-img{
+    height: 100px;
+    width: 170px;
+    border-radius: 50%;
+    padding-left:20px ;
+}
+.know-more{
+font-family:'Poppins',sans-serif ;
+font-size: 20px;
+font-weight: bolder;
+color:#800F2B;
+text-shadow: 2px 2px 10px  #800F2B ;
+text-decoration: none;
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+        width: 250px;
+        height: 250px;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav ul li{
+        margin: 5px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .colum{
+        width: 100%;
+        height: 250px;
+        margin: 0;
+        padding-top: 50vh;
+    }
+    .colum-1-img{
+        padding-left: 35px;
+        height: 150px;
+        width: 150px;
+    }
+    
+    .colum-2-img{
+        padding-left: 35px;
+        height: 150px;
+        width: 150px;
+    }
+    .colum-3-img{
+        padding-left: 35px;
+        height: 150px;
+        width: 150px;
+    }
+    .colum-4-img{
+        padding-left: 35px;
+        height: 150px;
+        width: 150px;
+    }
+    .know-more{
+        visibility: hidden;
+    }
+}
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="home">
+        <div id="header">
+            <nav>
+                <img src="https://i.pinimg.com/originals/27/44/0c/27440c358d6783f87b502c85b91b6863.jpg" class="logo">
+                <p class="b">Beauty</p>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#wedding">Beauty Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#inspiration">Inspiration</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="main">
+            <div class="text">
+                <h1><span style="color:#800F2B; text-shadow: 2px 2px 10px  #800F2B ;"> Bride-to-be?</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span>Enjoy exclusive <br> beauty offers and discounts</span></h1>
+            </div>
+            <div class="colum">
+                <img class="colum-1-img"src="https://tse1.explicit.bing.net/th?id=OIP.kKdNWXhJ4OinGNQsbIkdmgHaHa&pid=Api&P=0&h=180"><br>
+                <img class="colum-2-img" src="https://tse3.mm.bing.net/th?id=OIP.lt18KhCv6zxkXmjEQRPnxgHaE8&pid=Api&P=0&h=180">
+                <img  class="colum-3-img"src="http://pngimg.com/uploads/lipstick/lipstick_PNG76274.png">
+                <img  class="colum-4-img"src="https://www-cdn.bigcommerce.com/assets/Beauty_products_online_hero.png?mtime=20161229122427">
+                <img  class="colum-5-img"src="https://tse2.mm.bing.net/th?id=OIP.qV5Mk3Us8biCDf4LJlhfzwHaE7&pid=Api&P=0&h=180">
+            </div>
+        </div>
+       <div> <a href="#"class="know-more">To Know More....</p></a>
+    </div>
+    </div>
+    </div>
+    <script>
+       ScrollReveal().reveal(".colum", {scale:1.5})
+    </script>
+</div>
+</body>
+</html>
